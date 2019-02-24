@@ -1,0 +1,1077 @@
+@charset "UTF-8";
+/* line 1, D:/Мои макеты/layout__1/scss/layout__1.scss */
+body {
+  margin: 0 auto;
+}
+
+/* line 4, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+/* line 8, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel {
+  background: #4e85a8;
+  background-size: cover;
+}
+
+/* line 11, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel__header {
+  padding: 0 0 18px 0;
+  color: #ffffff;
+  line-height: 34px;
+}
+
+/* line 15, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel__header::before {
+  content: "";
+  display: block;
+  background-image: url("../css/image/layer-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 48px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+  left: 0;
+}
+
+/* line 27, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel__header__logo {
+  padding: 0 0 0 30px;
+}
+
+/* line 29, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel__header__logo-inner {
+  font-family: "Adobe Fangsong Std";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* line 35, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel__header__logo__description {
+  font-family: "Microsoft New Tai Lue";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 5px;
+  float: left;
+}
+
+/* line 44, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel__header__tel {
+  float: right;
+  font-family: "A Caslon Pro";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* line 50, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.titel__header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 58, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav {
+  background-color: #e1e1e1;
+  background-size: cover;
+  margin: 0;
+  padding: 17px 0 10px 0;
+}
+
+/* line 63, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__menu {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  float: left;
+}
+
+/* line 68, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__menu-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 71, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__menu-item:last-child {
+  margin-right: 0;
+}
+
+/* line 74, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__menu-item__link {
+  color: #3a5362;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "MS Sans Serif";
+  font-weight: 400;
+  line-height: 21px;
+  padding: 10px 15px 15px 15px;
+}
+
+/* line 82, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__menu-item__link:hover {
+  color: #ffffff;
+  background-color: #4e85a7;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+/* line 92, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__authorization {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  float: right;
+}
+
+/* line 97, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__authorization-inner {
+  display: inline-block;
+}
+
+/* line 99, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__authorization-inner__link {
+  color: #3a5362;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "MS Sans Serif";
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* line 106, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav__authorization-inner__link:hover {
+  text-decoration: underline;
+}
+
+/* line 112, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 119, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services {
+  background: #4e85a8;
+  background-size: cover;
+  border-top: 4px solid #4c84a7;
+  margin: 0;
+  padding: 20px 0 12px 0;
+}
+
+/* line 125, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__content {
+  display: inline-block;
+  width: 48%;
+}
+
+/* line 129, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__photo {
+  background-image: url("../css/image/layer-40.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 10px solid #f2e8e8;
+  padding-bottom: 230px;
+}
+
+/* line 135, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__photo-item {
+  background-color: rgba(0, 0, 0, 0.51);
+  position: relative;
+  top: 230px;
+  padding: 12px 50px 10px 25px;
+}
+
+/* line 140, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__photo-item__description {
+  margin: 0;
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+/* line 147, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__photo-item__description--inner {
+  font-size: 13px;
+}
+
+/* line 153, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__slide {
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* line 157, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__slide__button {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* line 164, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__slide__button:last-child {
+  margin-right: 0;
+}
+
+/* line 167, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__slide__button:hover {
+  background-color: #2c5f7f;
+}
+
+/* line 172, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__form {
+  width: 48%;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+/* line 176, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__form__search {
+  background: linear-gradient(to bottom, #60a4ce 0%, transparent 70%);
+  border-radius: 0 15px 0 0;
+  vertical-align: top;
+}
+
+/* line 180, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__form__search__inset {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Arial Rounded MT Bold";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 21px;
+  background-color: #60a4ce;
+  padding: 15px 20px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* line 190, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.services__form__search__inset--item {
+  background-color: #c2f2ed;
+  color: #4b83a6;
+}
+
+/* line 199, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search {
+  max-width: 345px;
+  text-align: right;
+  margin: 0 auto;
+  padding: 30px 0 10px 0;
+}
+
+/* line 204, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__comments {
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* line 213, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search-item {
+  display: block;
+}
+
+/* line 216, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__address {
+  width: 100%;
+  color: #347095;
+  font-family: "MS Sans Serif";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 15px 0 12px 0;
+  border: 3px solid #316e94;
+  border-radius: 8px;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.11) 0%, rgba(0, 0, 0, 0.11) 100%);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* line 229, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__address-item {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+}
+
+/* line 236, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__des {
+  position: relative;
+  padding: 0 0 0 10px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* line 246, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__des__custom {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: #e6e6e6;
+  border: 1px solid #bbbbbb;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.07), inset 0 0 0 2px #fcfdfd;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  border-radius: 5px;
+}
+
+/* line 257, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__des__custom::after {
+  content: "";
+  display: none;
+  background-image: url("../css/image/check.png");
+  background-repeat: no-repeat;
+  background-position: 4px 5px;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 268, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__inner {
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 25px;
+  text-align: right;
+}
+
+/* line 276, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__inner--item {
+  margin-bottom: 35px;
+}
+
+/* line 280, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__type {
+  width: 50%;
+  padding: 10px 0 10px 0;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.07), inset 0 0 0 2px #fcfdfd;
+  border: 1px solid #bbbbbb;
+  border-radius: 8px;
+  background-image: linear-gradient(to top, rgba(244, 244, 244, 0.4) 0%, rgba(243, 243, 243, 0.4) 50%, rgba(255, 255, 255, 0.4) 52%, rgba(255, 255, 255, 0.4) 100%);
+  color: #347095;
+  font-family: "Lucida Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+/* line 294, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__submit {
+  width: 50%;
+  border-radius: 10px;
+  border: 3px solid #d7d7d7;
+  background-image: linear-gradient(to top, #498ab2 0%, #6bb2dd 100%);
+  padding: 10px 0 10px 0;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+/* line 308, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.search__address-item:checked + .search__des__custom::after {
+  display: block;
+}
+
+/* line 312, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.content {
+  background-image: linear-gradient(to top, #c2f2ed 0%, #c2f2ed 1%, #edfffd 100%);
+  padding: 15px 0 20px 0;
+  margin-bottom: 20px;
+}
+
+/* line 316, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.content__information {
+  display: inline-block;
+  max-width: 286px;
+  margin-right: 50px;
+}
+
+/* line 320, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.content__information:last-child {
+  margin-right: 0;
+}
+
+/* line 323, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.content__information__titel {
+  color: #4484ad;
+  font-family: "Arial";
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+/* line 329, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.content__information__titel::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../css/image/home.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+/* line 341, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.content__information__description {
+  color: #43515a;
+  font-family: "Arial";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* line 351, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.home__search__content {
+  max-width: 222px;
+  display: inline-block;
+  margin-right: 19px;
+  margin-bottom: 20px;
+}
+
+/* line 356, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.home__search__content::before {
+  content: "";
+  display: block;
+  background-image: url("../css/image/layer-41.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 147px;
+  width: 100%;
+}
+
+/* line 365, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.home__search__content:last-child {
+  margin-right: 0;
+}
+
+/* line 368, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.home__search__content__description {
+  color: #ffffff;
+  font-family: "MS Sans Serif";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 55px 10px 10px;
+  background-color: #4f8fb7;
+  border-radius: 0 0 10px 10px;
+}
+
+/* line 378, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.home__search__content--item {
+  margin-bottom: 30px;
+}
+
+/* line 383, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.social {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 388, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.social:last-child {
+  margin-right: 0;
+}
+
+/* line 391, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.social__link {
+  text-decoration: none;
+  width: 51px;
+  height: 51px;
+  background-image: url("../css/image/facebook.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+/* line 399, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.social__link--tw {
+  background-image: url("../css/image/twitter.png");
+}
+
+/* line 402, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.social__link--google {
+  background-image: url("../css/image/google.png");
+}
+
+/* line 408, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications {
+  background-color: #5990aa;
+  padding: 15px 0;
+}
+
+/* line 411, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main {
+  max-width: 48%;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+/* line 416, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main:last-child {
+  margin-right: 0;
+}
+
+/* line 419, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__entrance {
+  width: 100%;
+  padding: 14px 0 23px 24px;
+  box-sizing: border-box;
+  border: 1px solid #d7d7d7;
+  background-image: linear-gradient(to top, #679abb 0%, #82bbdf 100%);
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 428, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__entrance__titel {
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* line 434, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__entrance__titel--item {
+  font-size: 20px;
+  font-size: 20px;
+  padding-right: 100px;
+  padding-top: 3px;
+}
+
+/* line 442, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__entrance__login__name {
+  width: 33%;
+  color: #4b7d9b;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #5990aa;
+  border-radius: 7px;
+  padding: 5px 0 10px 10px;
+  margin-right: 10px;
+}
+
+/* line 452, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__entrance__login__name--item {
+  width: 60%;
+}
+
+/* line 456, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__entrance__login__submit {
+  border: 3px solid #d7d7d7;
+  background-image: linear-gradient(to top, #498ab2 0%, #6bb2dd 100%);
+  font-family: "Arial";
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  border-radius: 5px;
+  padding: 3px 20px 8px;
+  cursor: pointer;
+}
+
+/* line 470, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__registration {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Arial";
+  position: relative;
+}
+
+/* line 478, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__registration__titel {
+  display: inline-block;
+  border: 1px solid #d7d7d7;
+  background-image: linear-gradient(to top, #679abb 0%, #82bbdf 100%);
+  padding: 10px 100px 10px 25px;
+  border-radius: 8px;
+}
+
+/* line 485, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__registration__user {
+  display: inline-block;
+  text-decoration: none;
+  width: 33%;
+  height: 0;
+  border-width: 24px 20px 24px;
+  border-style: solid;
+  border-color: #ff6e02 #ff6e02 #ff6e02 transparent;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* line 497, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.communications__main__registration__user__link {
+  position: relative;
+  bottom: 13px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 508, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information {
+  background-color: #4b7d9b;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+/* line 512, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin-right: 100px;
+}
+
+/* line 519, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company:last-child {
+  margin-right: 0;
+}
+
+/* line 522, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company:nth-child(3) {
+  max-width: 318px;
+  margin-right: 40px;
+}
+
+/* line 526, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company-item {
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* line 531, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company-item:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+/* line 534, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company-item:nth-child(2) {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* line 542, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company-item__link {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+/* line 550, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company-item__link--item {
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* line 554, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company-item__link:hover {
+  text-decoration: underline;
+}
+
+/* line 559, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company__logo {
+  color: #ffffff;
+  font-family: "Adobe Fangsong Std";
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+/* line 565, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company__logo-inner {
+  position: relative;
+}
+
+/* line 567, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company__logo-inner::before {
+  content: "";
+  display: block;
+  background-image: url("../css/image/layer-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 31px;
+  position: absolute;
+  top: -13px;
+  left: -18px;
+}
+
+/* line 581, D:/Мои макеты/layout__1/scss/layout__1.scss */
+.add__information__company__copirait {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 969px) {
+  /* line 593, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .container {
+    max-width: 750px;
+  }
+  /* line 596, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo {
+    padding-bottom: 175px;
+  }
+  /* line 598, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo-item {
+    top: 175px;
+  }
+  /* line 600, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo-item__description {
+    font-size: 16px;
+  }
+  /* line 602, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo-item__description--inner {
+    font-size: 9px;
+  }
+  /* line 608, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__form {
+    margin-left: 20px;
+  }
+  /* line 611, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search {
+    padding: 10px 0 10px 0;
+  }
+  /* line 613, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search__comments {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  /* line 617, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search__address {
+    width: 98%;
+    padding: 7px 0 7px 0;
+    margin-bottom: 7px;
+  }
+  /* line 622, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search__inner {
+    margin-bottom: 30px;
+  }
+  /* line 625, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search__type {
+    padding: 7px 0 7px 0;
+  }
+  /* line 628, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search__submit {
+    padding: 7px 0 7px 0;
+  }
+  /* line 632, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__slide {
+    margin-top: 30px;
+  }
+  /* line 634, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__slide__button {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+  }
+  /* line 640, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .content {
+    text-align: center;
+  }
+  /* line 642, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .content__information {
+    max-width: 48%;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  /* line 647, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .content__information:last-child {
+    margin-bottom: 0;
+  }
+  /* line 652, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .home__search__content {
+    max-width: 48%;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  /* line 656, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .home__search__content::before {
+    background-size: cover;
+    padding-bottom: 240px;
+  }
+  /* line 662, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__entrance {
+    width: 100%;
+    padding: 14px 0 24px 10px;
+  }
+  /* line 665, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__entrance__titel--item {
+    font-size: 20px;
+    padding-right: 30px;
+  }
+  /* line 669, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__entrance__login {
+    text-align: center;
+  }
+  /* line 671, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__entrance__login__name {
+    width: 43%;
+  }
+  /* line 673, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__entrance__login__name--item {
+    width: 90%;
+  }
+  /* line 677, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__entrance__login__submit {
+    margin-top: 10px;
+  }
+  /* line 682, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__registration {
+    font-size: 20px;
+  }
+  /* line 684, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__registration__user {
+    border-width: 23px 20px 23px;
+  }
+  /* line 689, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information {
+    text-align: center;
+  }
+  /* line 692, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company:nth-child(3) {
+    max-width: 33%;
+    margin-right: 0;
+  }
+  /* line 696, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company:last-child {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  /* line 700, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company__logo {
+    font-size: 20px;
+  }
+  /* line 703, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company__logo-inner::before {
+    width: 35px;
+    height: 36px;
+    top: -16px;
+    left: -22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 716, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .container {
+    max-width: 310px;
+  }
+  /* line 719, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .titel__header__logo__description {
+    float: none;
+    font-size: 14px;
+  }
+  /* line 723, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .titel__header__tel {
+    float: none;
+  }
+  /* line 726, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .titel__header {
+    text-align: center;
+  }
+  /* line 729, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .titel__header__logo {
+    padding: 0;
+  }
+  /* line 732, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .titel__header::before {
+    left: 10px;
+  }
+  /* line 735, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .nav {
+    text-align: center;
+  }
+  /* line 738, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .nav__menu {
+    float: none;
+  }
+  /* line 741, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .nav__authorization {
+    float: none;
+  }
+  /* line 744, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .nav__menu-item__link {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 12px 10px 11px;
+  }
+  /* line 749, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .nav__authorization-inner__link {
+    font-size: 20px;
+  }
+  /* line 752, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 756, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo {
+    padding-bottom: 150px;
+  }
+  /* line 759, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo-item {
+    top: 150px;
+  }
+  /* line 762, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo-item__description {
+    font-size: 13px;
+  }
+  /* line 765, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__photo-item__description--inner {
+    font-size: 7px;
+  }
+  /* line 768, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__slide {
+    margin-top: 15px;
+  }
+  /* line 771, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__form {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 775, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .services__form__search__inset {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+  /* line 779, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search__comments {
+    font-size: 14px;
+  }
+  /* line 782, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .search {
+    max-width: 300px;
+  }
+  /* line 785, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .content__information {
+    max-width: 100%;
+  }
+  /* line 788, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .home__search__content {
+    max-width: 100%;
+  }
+  /* line 791, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .home__search__content::before {
+    padding-bottom: 195px;
+  }
+  /* line 794, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .home__search__content {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  /* line 798, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  /* line 803, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__entrance__login__name {
+    margin-right: 0;
+  }
+  /* line 806, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__registration {
+    font-size: 16px;
+  }
+  /* line 809, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__registration__user {
+    border-width: 20px 20px 20px;
+  }
+  /* line 812, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__registration__user__link {
+    bottom: 10px;
+  }
+  /* line 815, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .communications__main__social {
+    text-align: center;
+  }
+  /* line 818, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company {
+    width: 48%;
+    margin-right: 0;
+  }
+  /* line 822, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company:nth-child(3) {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    display: block;
+    margin-top: 15px;
+  }
+  /* line 829, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company:last-child {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    display: block;
+    margin-top: 25px;
+  }
+  /* line 836, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company__logo-inner::before {
+    left: 52px;
+  }
+  /* line 839, D:/Мои макеты/layout__1/scss/layout__1.scss */
+  .add__information__company__logo {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=../css/layout__1.map */
